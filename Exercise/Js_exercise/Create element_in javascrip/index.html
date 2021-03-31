@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <h1>Empty page</h1>
+    <div id="main"></div>
+
+    <script>
+      main = document.getElementById("main");
+
+      newDiv = document.createElement("div");
+      newDiv.id = "newDiv";
+      newDiv.classList.add("red");
+      newDiv.classList.add("bold");
+
+      main.appendChild(newDiv);
+
+      newUl = document.createElement("ul");
+      newDiv.appendChild(newUl);
+
+      newLi1 = document.createElement("li");
+      newLi1.textContent = "Monday";
+      newLi1.style.color = "green";
+      newUl.appendChild(newLi1);
+
+      newLi2 = document.createElement("li");
+      newLi2.textContent = "Tuesday";
+      newUl.appendChild(newLi2);
+    </script>
+  </body>
+</html>

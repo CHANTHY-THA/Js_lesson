@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/sear.jpg);
+    font-family: sans-serif;
+
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    text-transform: uppercase;
+    padding:18px 12px;
+    color: peru;
+
+    height: 2vh;
+
+}
+.pic{
+    height: 6vh;
+    margin-top: 12%;
+}
+img{
+    border-radius: 360px;
+    width: 40px;
+    height: 40px;
+
+}
+.logo{
+    display: flex;
+    margin-left: 2%;
+    font-family: cursive;
+}
+ul .home a{
+    color: peru;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 3%;
+    height: 5vh;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 50%;
+}
+ul li{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+/* hover */
+ul li a:hover{
+    border: 1px solid #fff;
+    padding: 9px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    transition: 0.5s ease;
+
+}
+form{
+    width: 35%;
+    color: #fff;
+    margin: auto;
+    margin-top: 4%;
+    background: rgba(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+textarea{
+    box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+input[type=submit]{
+    margin-left: 80%;
+    width: 20%;
+    height: 6vh;
+    background: #2db38a;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+/* hover  */
+input[type=submit]:hover{
+    background: #308355;
+}
+iframe{
+    margin-top: 6%;
+    width:532px;
+    height:200px;
+}
+footer{
+    background: rgba(43, 156, 120, 0.815);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
